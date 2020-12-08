@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <FDWinXPSupportFolder>winxp-support\</FDWinXPSupportFolder>
+  </PropertyGroup>
+  <ItemGroup>
+    <BuildMacro Include="FDWinXPSupportFolder">
+      <Value>$(FDWinXPSupportFolder)</Value>
+    </BuildMacro>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <PreprocessorDefinitions>_ATL_XP_TARGETING;%(PreprocessorDefinitions);PSAPI_VERSION=1</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Psapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem Condition="'%(Link.SubSystem)' == '' Or '%(Link.SubSystem)' == 'NotSet'">Windows</SubSystem>
+      <MinimumRequiredVersion Condition="$(ProcessorArchitecture) == 'x86'">5.01</MinimumRequiredVersion>
+      <MinimumRequiredVersion Condition="$(ProcessorArchitecture) != 'x86'">5.02</MinimumRequiredVersion>
+    </Link>
+  </ItemDefinitionGroup>
+</Project>

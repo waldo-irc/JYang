@@ -1,0 +1,1 @@
+hexdump -v -e '"0""x" 1/1 "%02x" ","' GruntHTTPAVBypass.bin
