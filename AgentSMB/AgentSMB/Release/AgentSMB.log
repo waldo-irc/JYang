@@ -1,0 +1,50 @@
+﻿  Source.cpp
+C:\Users\Arash\source\repos\AgentSMB\AgentSMB\Encrypt.hpp(9,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Arash\source\repos\AgentSMB\AgentSMB\IGeneral.hpp(64,46): warning C4805: '==': unsafe mix of type 'BOOL' and type 'bool' in operation
+C:\Users\Arash\source\repos\AgentSMB\AgentSMB\IC.hpp(4,7): warning C4101: 'currentDir': unreferenced local variable
+C:\Users\Arash\source\repos\AgentSMB\AgentSMB\Source.cpp(59,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\Arash\source\repos\AgentSMB\AgentSMB\Source.cpp(60,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Arash\source\repos\AgentSMB\AgentSMB\Source.cpp(140,8): warning C4101: 'dwWritten': unreferenced local variable
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(2390,23): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(2401): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(2401): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(2381): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(2381): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Users\Arash\source\repos\AgentSMB\AgentSMB\Source.cpp(384): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+C:\Users\Arash\source\repos\AgentSMB\AgentSMB\Source.cpp(384): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+C:\Users\Arash\source\repos\AgentSMB\AgentSMB\SacProc.hpp(161): warning C4715: 'GetProcessByName': not all control paths return a value
+C:\Users\Arash\source\repos\AgentSMB\AgentSMB\IGeneral.hpp(34): warning C4715: 'getHostProcessArch': not all control paths return a value
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  AgentSMB.vcxproj -> C:\Users\Arash\source\repos\AgentSMB\Agents\Win32\AgentSMB32.exe
