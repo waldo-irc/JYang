@@ -1,5 +1,3 @@
-[![pipeline status](https://git.home.local/arash/jyang/badges/dev/pipeline.svg)](https://git.home.local/arash/jyang/commits/dev)
-
 # Jyang Post Exploitation Framework 
 ## Version 2.1.0
 A threat emulation framework made completely for educational purposes and not shared publicly.  It still needs work anyways, any monkey can detect most of these if they are competent, its mostly for learning how to hunt and how hackers think and will take time to become more advanced.
