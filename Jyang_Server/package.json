@@ -1,0 +1,20 @@
+{
+	"author": "waldo",
+	"version": "2.1.0",
+	"scripts": {
+		"run": "node index.js run"
+	},
+	"dependencies": {
+		"body-parser": "latest",
+		"buffer-replace": "^1.0.0",
+		"colors": "latest",
+		"command-exists": "^1.2.8",
+		"esm": "latest",
+		"express": "latest",
+		"md5": "latest",
+		"package.json": "^2.0.1",
+		"python-shell": "^1.0.8",
+		"ws": "latest",
+		"yargs": "latest"
+	}
+}
